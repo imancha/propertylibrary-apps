@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_properti"
+            android:title="Tambah"
+            android:visible="false"/>
+
+        <item
+            android:id="@+id/nav_pencarian"
+            android:title="Pencarian"/>
+        <item
+            android:id="@+id/nav_favorit"
+            android:title="Favorit"
+            android:visible="false"/>
+        <item
+            android:id="@+id/nav_kalkulator"
+            android:title="Kalkulator"/>
+        <item
+            android:id="@+id/nav_login"
+            android:title="Login"/>
+        <item
+            android:id="@+id/nav_logout"
+            android:title="Logout"
+            android:visible="false"/>
+    </group>
+
+</menu>

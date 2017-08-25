@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+            android:id="@+id/property_view_info"
+            android:icon="@android:drawable/ic_menu_myplaces"
+            android:title="Info"
+            app:showAsAction="always"/>
+    <item
+        android:id="@+id/property_view_favorite"
+        android:icon="@android:drawable/ic_menu_save"
+        android:title="Favorite"
+        android:visible="false"
+        app:showAsAction="always"/>
+    <item
+            android:id="@+id/property_view_share"
+            android:icon="@android:drawable/ic_menu_share"
+            android:title="Share"
+            app:showAsAction="always"/>
+</menu>
